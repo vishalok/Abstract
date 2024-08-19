@@ -37,7 +37,7 @@ function Footer() {
             <div className="footer-section">
                 <br /><br /><br /><br /><br />
                 <p>
-                    <img src="abstract.jpg" alt="Abstract Logo" className="logo" /> <br />
+                    <img src="../assets/abstract.JPG" alt="Abstract Logo" className="logo" /> <br />
                     &copy; Copyright 2022 <br />Abstract Studio Design, Inc.<br /> All rights reserved.
                 </p>
         </div>
