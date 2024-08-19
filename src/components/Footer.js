@@ -1,6 +1,8 @@
 import React from 'react';
 // eslint-disable-next-line
 import { BrowserRouter as Link } from 'react-router-dom';
+import abstractLogo from '../assets/abstract.JPG';
+
 
 function Footer() {
   return (
@@ -37,7 +39,7 @@ function Footer() {
             <div className="footer-section">
                 <br /><br /><br /><br /><br />
                 <p>
-                    <img src="../assets/abstract.JPG" alt="Abstract Logo" className="logo" /> <br />
+                    <img src={abstractLogo} alt="Abstract Logo" className="logo" /> <br />
                     &copy; Copyright 2022 <br />Abstract Studio Design, Inc.<br /> All rights reserved.
                 </p>
         </div>

@@ -8,7 +8,7 @@ const API_URL = 'https://card-api-rqrz.onrender.com/api';
 export const getCards = async () => {
   try {
     const response = await axios.get(`${API_URL}/cards`);
-    console.log('response data -',response)
+    // console.log('response data -',response)
     return response.data;
    
   } catch (error) {
